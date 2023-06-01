@@ -15,7 +15,7 @@ header nav {
 header nav div {
     display: flex;
     align-items: center;
-    margin-left: 39%;
+    margin-left: 38%;
 }
 
 header nav div a {    
@@ -64,24 +64,79 @@ header section button {
     font-weight: bold;
 }
 
-#aboutUs div {
+#aboutUs #about {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-#aboutUs div h1 {
+#aboutUs #about h1 {
     margin: 5% 0 3% 0;
     font-size: 2.5vi;
     font-weight: bold; 
 }
 
-#aboutUs div p {
+#aboutUs #about p {
     line-height: 150%;
     font-size: 1.1vi;
     color: #838383;
 }
 
-#aboutUs div img {
+#aboutUs #about img {
     margin: 3% 0 0 0;
+}
+
+#skills {
+    display: flex;
+    margin-top: 15%;
+}
+
+.skills {
+    width: 50%;
+    margin-left: 3%;
+}
+
+#blankSkills{
+    background-color: #E9E9E9;
+}
+
+#skills div h1 {
+    font-size: 2.2vi;
+    font-weight: bold;
+}
+
+#skills div .lineSkill {
+    width: 100%;
+    margin: 0;
+    height: 0.8vh;
+    margin-bottom: 5%;
+}
+
+#skills div #Skill1 {
+    background: linear-gradient(to right, #10C9C3 75%, #838383 25%);
+}
+
+#skills div #Skill2 {
+    background: linear-gradient(to right, #10C9C3 90%, #838383 10%);
+}
+
+#skills div #Skill3 {
+    background: linear-gradient(to right, #10C9C3 65%, #838383 35%);
+    margin-bottom: 30%;
+}
+
+#skills div pre {
+    margin: 5% 0 2% 0;
+    font-size: 0.9vi;
+    font-weight: bold;
+    letter-spacing: 1px;
+    white-space: pre;
+}
+
+#work header {
+    background-color: #10C9C3;
+}
+
+#work header img {
+    margin: 6% 10%;
 }
