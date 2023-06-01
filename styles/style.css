@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -135,8 +135,62 @@ header section button {
 
 #work header {
     background-color: #10C9C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #work header img {
-    margin: 6% 10%;
+    margin: 6% 2%;
+}
+
+#work header span {
+    margin-right: 5%;
+    color: #E9E9E9;
+    font-size: 1vi;
+    line-height: 130%;
+}
+
+#work header span strong {
+    font-weight: 800;
+}
+
+#work main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work main div {
+    height: 45vh;
+    width: 25%;
+}
+
+.darkGray {
+    background-color: #838383;
+}
+
+.lightGray {
+    background-color: #E9E9E9;
+}
+
+.black {
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work footer {
+    padding: 3% 0;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#work footer p {
+    color: #838383;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.9vi;
 }
