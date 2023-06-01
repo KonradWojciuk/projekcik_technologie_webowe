@@ -194,3 +194,52 @@ header section button {
     letter-spacing: 1px;
     font-size: 0.9vi;
 }
+
+#process header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    background-color: white;
+}
+
+#process header h1 {
+    margin-bottom: 2%;
+    font-size: 2.5vi;
+}
+
+#process header p {
+    color: #838383;
+    font-size: 1.2vi;
+    margin-bottom: 0.6%;
+}
+
+#process main {
+    background-color: #E9E9E9;
+    margin: 10% auto;
+    width: 80%;
+}
+
+#process main div {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#process main div div {
+    width: 10%;
+    height: 16vh;
+    background-color: #10C9C3;
+    border-radius: 50%;
+}
+
+#process main div div div {
+    width: 0; 
+    height: 0; 
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;
+    border-left: 1.5vw solid white;
+    border-radius: 0%;
+}
