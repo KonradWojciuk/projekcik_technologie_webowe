@@ -229,8 +229,8 @@ header section button {
 }
 
 #process main div div {
-    width: 10%;
-    height: 16vh;
+    width: 9%;
+    height: 14vh;
     background-color: #10C9C3;
     border-radius: 50%;
 }
@@ -238,8 +238,38 @@ header section button {
 #process main div div div {
     width: 0; 
     height: 0; 
-    border-top: 2vh solid transparent;
-    border-bottom: 2vh solid transparent;
-    border-left: 1.5vw solid white;
+    border-top: 1.5vh solid transparent;
+    border-bottom: 1.5vh solid transparent;
+    border-left: 1.2vw solid white;
     border-radius: 0%;
+}
+
+#servieces main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#servieces main div {
+    width: 25%;
+    height: 40vh;
+    background-color: #E9E9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 1px;
+}
+
+#servieces main div img {
+    margin-top: 20%;
+}
+
+#servieces main div h4 {
+    margin: 7% 0 5% 0;
+    font-weight: 800;
+}
+
+#servieces main div p {
+    margin-bottom: 2%;
+    color: #838383;
 }
