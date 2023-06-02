@@ -260,6 +260,10 @@ header section button {
     letter-spacing: 1px;
 }
 
+#servieces main .downDiv {
+    padding-bottom: 6%;
+}
+
 #servieces main div img {
     margin-top: 20%;
 }
@@ -272,4 +276,51 @@ header section button {
 #servieces main div p {
     margin-bottom: 2%;
     color: #838383;
+}
+
+#testimonials main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #10C9C3;
+    color: white;
+    height: 50vh;
+    font-size: 2.2vi;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#testimonials main p {
+    margin: 0.5%;
+    font-weight: 700;
+}
+
+#testimonials main #author {
+    padding-top: 3%;
+    font-size: 1.1vi;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#testimonials main div {
+    margin-top: 10%;
+}
+
+.dot {
+    height: 2vh;
+    width: 1vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+#testimonials footer {
+    margin: 5% 0 5% 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#testimonials footer img {
+    margin: 0 auto 0 auto;
 }
