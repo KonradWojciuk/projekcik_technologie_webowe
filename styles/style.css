@@ -327,7 +327,6 @@ header section button {
 
 #contact {
     margin: 0 auto 0 auto;
-    width: 80%;
     background-color: #E9E9E9;
 }
 
@@ -357,7 +356,7 @@ header section button {
 }
 
 form {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -390,6 +389,7 @@ input {
     margin: 2.5% 0 2.5% 0;
     font-size: 1.1vi;
     padding-left: 2%;
+    border: #838383 solid 1%;
 }
 
 .buttonDiv {
@@ -410,4 +410,60 @@ input {
     font-weight: bold;
     width: 100%;
     height: 100%;
+}
+
+.footer {
+    height: 25vh;
+    background-color: #252525;
+    display: flex;
+    color: white;
+}
+
+.footer div {
+    width: 33%;
+}
+
+.copy {
+    margin: 4% 0 0 5%;
+}
+
+.footer div h1 {
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.footer div p {
+    margin-bottom: 3%;
+}
+
+.emailFooter {
+    margin: 4% 0 0 3%;
+}
+
+.socials {
+    display: flex;
+}
+
+.aboutFooter {
+    margin-top: 11%;
+}
+
+.socials .aboutFooter p {
+    margin-bottom: 8%;
+}
+
+.contactFooter {
+    margin-top: 11%;
+}
+
+.socials .contactFooter p {
+    margin-bottom: 8%;
+}
+
+.socialsFooter {
+    margin-top: 11%;
+}
+
+.socials .socialsFooter p {
+    margin-bottom: 8%;
 }
