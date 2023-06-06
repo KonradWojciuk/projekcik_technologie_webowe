@@ -165,12 +165,14 @@ header section button {
     width: 25%;
 }
 
-.darkGray {
-    background-color: #838383;
+.darkGray img{
+    width: 100%;
+    height: 100%;
 }
 
-.lightGray {
-    background-color: #E9E9E9;
+.lightGray img {
+    width: 100%;
+    height: 100%;
 }
 
 .black {
